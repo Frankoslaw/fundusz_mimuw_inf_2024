@@ -1,0 +1,1 @@
+Task base: https://google.github.io/comprehensive-rust/concurrency/sync-exercises/dining-philosophers.html

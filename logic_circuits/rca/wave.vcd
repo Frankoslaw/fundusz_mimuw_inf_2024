@@ -1,0 +1,37 @@
+$date
+	Sat Jun  8 10:57:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_rca $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " c_out $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % c_in $end
+$var integer 32 & i [31:0] $end
+$scope module fa0 $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 1 % c_in $end
+$var reg 1 " c_out $end
+$var reg 4 ) sum [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110 )
+b1101 (
+b1 '
+b101 &
+0%
+b1101 $
+b1 #
+0"
+b1110 !
+$end

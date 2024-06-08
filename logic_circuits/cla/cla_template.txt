@@ -1,0 +1,14 @@
+module cla_adder (
+    input [{bit_size}:0] a,
+    input [{bit_size}:0] b,
+    input c_in,
+    output c_out,
+    output [{bit_size}:0] sum
+);
+    wire [{bit_size}:0] ci;
+
+    {ci_list}
+
+    assign sum = a^b^ci;
+    
+endmodule
